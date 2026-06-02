@@ -1,0 +1,13 @@
+/* ITS-R Universe — Black/White + Day/Night Theme */
+:root {
+  --bg: #000000; --card: #111111; --border: #222222; --text: #ffffff;
+  --sub: #888888; --input-bg: #1a1a1a; --gold: #d4af37;
+  --success: #22c55e; --error: #ef4444; --warning: #f59e0b;
+}
+[data-theme="light"] {
+  --bg: #ffffff; --card: #f5f5f5; --border: #e0e0e0; --text: #000000;
+  --sub: #555555; --input-bg: #eeeeee; --gold: #b8960c;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: var(--bg); color: var(--text); font-family: system-ui,-apple-system,sans-serif; transition: background 0.2s,color 0.2s; }
+a { color: var(--gold); text-decoration: none; }
